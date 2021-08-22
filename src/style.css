@@ -5,21 +5,16 @@
   padding: 0;
 }
 
+.form__item:first-of-type {
+  margin-top: 0;
+}
+ 
 .field {
   margin-top: 10px;
 }
 
-.field:first-of-type {
-  margin: 0;
-}
-
-.input-num {
-  width: 3%;
-}
-
-.dob,
-.time {
-  width: 9%;
+.form__item .field:last-of-type {
+  margin: 10px 0;
 }
 
 .btn-submit {
